@@ -35,5 +35,5 @@ if($_SESSION["tipo"]==1){
 }else{
 unset($usuario);
 print "<script>alert('Usuário e/ou senha incorretos ou usuário inativo.');</script>";
-print "<script>location.href='pg-logar.php';</script>";
+print "<script>location.href='index.php';</script>";
 }
