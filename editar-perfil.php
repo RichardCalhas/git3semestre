@@ -29,7 +29,7 @@ $row_usuario = mysqli_fetch_assoc($resultado_usuario);
             <input type="hidden" name="controle" value="editar-perfil">
             <input type="hidden" name="id_usuario" value="<?php print $_SESSION["id"]; ?>">
             <button type="submit" class="btn btn-success">
-                Editar
+                Redefinir
             </button>
         </div>
         </form>
